@@ -603,6 +603,7 @@ display: none;
     top: 20px;
     position: absolute;
     left: 20px;
+    display: block;
   }
 
   .fa-bars {
