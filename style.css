@@ -582,6 +582,10 @@ li {
   color: #3c3c3c;
 }
 
+#menu-btn {
+display: none;
+}
+
 @media (max-width: 430px) {
   .sidebar {
     position: fixed;
@@ -595,7 +599,7 @@ li {
     padding: 10px 30px;
   }
 
-  .menu-btn {
+  #menu-btn {
     top: 20px;
     position: absolute;
     left: 20px;
