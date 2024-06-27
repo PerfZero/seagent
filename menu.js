@@ -23,3 +23,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   
   
+  document.querySelector('.footer_up').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});

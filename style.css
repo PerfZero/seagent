@@ -75,6 +75,20 @@ body {
   margin-bottom: 30px;
 }
 
+.new::before{
+  content: 'New';
+  position: absolute;
+  right: 75px;
+  bottom: 10px;
+  background-color: #353780;
+  color: #fff;
+  width: 66px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+}
+
 .search input {
   width: 100%;
   padding: 10px;
@@ -105,6 +119,16 @@ body {
   flex-direction: row;
   transition: 0.3s;
   position: relative;
+}
+
+
+
+.footer_up{
+  content: url(/assets/img/arrow-up.png);
+ bottom: 30px;
+  right: 50px;
+  position: fixed;
+  cursor: pointer;
 }
 
 .block_tele {
