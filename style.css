@@ -47,11 +47,10 @@ body {
 
 .docu-content {
     display: none;
-    padding: 10px;
-  
     background-color: #f1f7f9;
     padding: 10px 20px;
     border-radius: 12px;
+    margin: 10px 0 10px 41px;
 }
 
 .contect_block img {
@@ -548,7 +547,7 @@ li {
 .docu-item {
   width: 100%;
   flex: 1;
-  padding: 10px 20px;
+  padding: 0 20px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
