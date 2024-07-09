@@ -569,6 +569,11 @@ li {
   margin-right: 15px;
 }
 
+.docu-content a::before {
+  content: url(/assets/img/icon/Document.svg);
+  margin-right: 15px;
+}
+
 .popup {
   position: fixed;
   top: 0;
