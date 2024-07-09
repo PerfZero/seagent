@@ -57,13 +57,13 @@ body {
     border-top: 1px solid #ccc;
 }
 
-.docu-item a::after {
+.docu-item > a::after {
     content: url('/assets/img/icon/arrow_s.svg');
     float: right;
     transition: transform 0.3s;
 }
 
-.docu-item a.open::after {
+.docu-item > a.open::after {
     transform: rotate(90deg);
 }
 
