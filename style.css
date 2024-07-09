@@ -60,6 +60,10 @@ body {
     transform: rotate(90deg);
 }
 
+.docu-item a::after {
+    content: url(/assets/img/icon/arrow_s.svg);
+}
+
 .nested-doc{
     margin-bottom: 10px;
 
