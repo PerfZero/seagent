@@ -318,10 +318,23 @@
             var docId = $(this).data('doc');
             $('.docu-item').hide();
             $('.docu-item[data-doc="' + docId + '"]').show();
+            $('.docu-content').hide(); // Hide all accordion content
+        });
+
+        $('.docu-item a').click(function(e) {
+            e.preventDefault();
+            var $content = $(this).next('.docu-content');
+            if ($content.is(':visible')) {
+                $content.slideUp();
+            } else {
+                $('.docu-content').slideUp();
+                $content.slideDown();
+            }
         });
 
         $('.document_item.activ_list').click(); // Initial click to show the first set of documents
     });
 </script>
+
   </body>
 </html>
