@@ -47,9 +47,22 @@ body {
 
 .docu-content {
     display: none;
-    background-color: #f1f7f9;
     border-radius: 12px;
     margin: 10px 0 10px 41px;
+}
+
+.arrow {
+    float: right;
+    transition: transform 0.3s;
+}
+
+.arrow.open {
+    transform: rotate(90deg);
+}
+
+.nested-doc{
+    margin-bottom: 10px;
+
 }
 
 .contect_block img {
