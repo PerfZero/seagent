@@ -48,7 +48,10 @@ body {
 .docu-content {
     display: none;
     padding: 10px;
-    border-top: 1px solid #ccc;
+  
+    background-color: #f1f7f9;
+    padding: 10px 20px;
+    border-radius: 12px;
 }
 
 .contect_block img {
@@ -543,7 +546,6 @@ li {
 }
 
 .docu-item {
-  background-color: #f1f7f9;
   width: 100%;
   flex: 1;
   padding: 10px 20px;
@@ -557,6 +559,10 @@ li {
   display: flex;
   flex-direction: row;
   font-weight: 600;
+  
+    background-color: #f1f7f9;
+    padding: 10px 20px;
+    border-radius: 12px;
 }
 
 .docu-item a::before {
