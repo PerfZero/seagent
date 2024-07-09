@@ -255,5 +255,68 @@
     </div>
     <script src="/menu.js"></script>
 
+Чтобы создать переключатель для списка документов, вам нужно добавить функционал JavaScript, который будет переключать активный класс между элементами списка при клике на них. Вот пример простого скрипта на jQuery для этой цели:
+
+html
+Копировать код
+<div class="content product-wrap">
+    <div class="product_block">
+        <h1>Документы компании</h1>
+        <div class="menu-documet">
+            <div class="document-list">
+                <div class="document_item activ_list">
+                    <a href="#">Правовые документы</a>
+                </div>
+
+                <div class="document_item">
+                    <a href="#">Финансовая отчетность</a>
+                </div>
+
+                <div class="document_item">
+                    <a href="#">Аудировнная отчетность</a>
+                </div>
+
+                <div class="document_item">
+                    <a href="#">Тарифы</a>
+                </div>
+
+                <div class="document_item">
+                    <a href="#">Вознаграждение агентов</a>
+                </div>
+
+                <div class="document_item">
+                    <a href="#">Реестр страховых агентов</a>
+                </div>
+            </div>
+            <div class="docu-list">
+                <div class="docu-item">
+                    <a href="#">Лицензия</a>
+                </div>
+
+                <div class="docu-item">
+                    <a href="#">Справка о всех регистрационных действиях юридического лица</a>
+                </div>
+
+                <div class="docu-item">
+                    <a href="#">Справка о государственной перерегистрации юридического лица на РУС</a>
+                </div>
+
+                <div class="docu-item">
+                    <a href="#">Справка о государственной перерегистрации юридического лица на КАЗ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.document_item').click(function() {
+            $('.document_item').removeClass('activ_list'); // Remove active class from all items
+            $(this).addClass('activ_list'); // Add active class to the clicked item
+        });
+    });
+</script>
   </body>
 </html>
