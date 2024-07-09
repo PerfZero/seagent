@@ -45,6 +45,12 @@ body {
   margin-bottom: 60px;
 }
 
+.docu-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
 .contect_block img {
   width: 100%;
   max-width: 381px;
